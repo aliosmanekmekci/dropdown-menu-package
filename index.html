@@ -3,22 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Dropdown Menu</title>
   </head>
   <body>
     <div class="container">
       <header>
-        <h2>Dropdonw Menu</h2>
+        <h2>Dropdown Menu</h2>
         <p>This project is a dropdown exercise from The Odin Project's Dynamic User Interface Interactions course.</p>
       </header>
       <main>
-        <button class="dropdown-menu-button">Dropdown Menu</button>
-        <ul>
-          <li>Menu Item 1</li>
-          <li>Menu Item 2</li>
-          <li>Menu Item 3</li>
-        </ul>
+        <div class="dropdown">
+          <button class="dropdown-menu-button" id="dropdown-button">Dropdown Menu</button>
+
+          <ul class="dropdown-menu-ul" id="dropdown-menu">
+            <li><button class="dropdown-item" data-action="edit">Edit</button></li>
+            <li><button class="dropdown-item" data-action="copy">Copy</button></li>
+            <li><button class="dropdown-item" data-action="delete">Delete</button></li>
+          </ul>
+        </div>
       </main>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
