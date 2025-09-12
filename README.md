@@ -2,9 +2,9 @@
 
 A tiny, plain dropdown menu. Built as part of The Odin Project's Dynamic User Interface Interactions course.
 
-## Preview
+## Live Demo
 
-Open `index.html` in your browser.
+[aliosmanekmekci.github.io/dropdown-menu-package](https://aliosmanekmekci.github.io/dropdown-menu-package/)
 
 ## How it works
 
@@ -24,12 +24,6 @@ No build tools required.
 1. Clone the repo
 2. Open `index.html` in a browser
 
-## Deploy to GitHub Pages
+## Preview locally
 
-1. Push to GitHub
-2. In your repository, go to Settings → Pages
-3. Set Source to `Deploy from a branch`
-4. Select branch `main` and folder `/root`
-5. Save. Your site will be available at the URL GitHub shows on that page
-
-Tip: you can add the live URL here once Pages is enabled.
+Open `index.html` in your browser.
